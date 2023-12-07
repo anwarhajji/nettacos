@@ -8,8 +8,7 @@ import netlify from "@astrojs/netlify/functions";
 
 // https://astro.build/config
 export default defineConfig({
-  output: 'server',
-  adapter: netlify(),
+  site:"https://nettacos.github.io/",
   compressHTML: true,
   integrations: [mdx(), tailwind({
     applyBaseStyles: false
