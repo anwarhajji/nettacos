@@ -1,0 +1,63 @@
+---
+import DefaultLayout from '../layouts/DefaultLayout.astro'
+import Hero from '../components/Hero.astro'
+import Feature from '../components/Feature.astro'
+import Counter from '../components/Counter.astro'
+import ContentMedia from '../components/ContentMedia.astro'
+---
+
+<DefaultLayout title="Home">
+  <Hero />
+  <section class="my-64">
+    <div class="container">
+      <h2 class="mb-16 text-6xl">“The French Taste”</h2>
+      <div class="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-3">
+       
+        <Feature icon="mdi:silverware-fork-knife" title="freshly cooked">
+          All our ingredients are delivered daily and freshly cooked on the premises.
+        </Feature>
+        <Feature icon="mdi:food-halal" title="halal meat">
+          We use fresh halal meat and local suppliers whenever possible.
+        </Feature>
+        <Feature icon="mdi:chef-hat" title="French Chef">
+          
+
+       
+      </div>
+    </div>
+  </section>
+  <ContentMedia imgSrc="/t2.jpg">
+    <h2>THE ORIGINAL 
+      FRENCH TACOS</h2>
+    <p class="text-2xl">
+      <h6>The Story</h6>
+      According to local urban legend, The first French Tacos started in the mid-2000s in Vaux-en-Velin and quickly became popular in the area. 
+      
+      In France, the French Tacos is growing rapidly and is now one of the
+      
+      favourite fast food. 
+      
+      
+    </p>
+  </ContentMedia>
+  <ContentMedia imgSrc="/T1.jpg" reverseImg={true}>
+    <h2>What the hell is
+      a French Taco ?</h2>
+    <p class="text-2xl">
+      It's a tortilla wrap filled with a choice of meat, fries and melting cheese sauce. All carefully wrapped up and toasted.
+
+The end result is the best comfort food you'll ever taste, a warm and tasty mix of crispiness and melting flavours..
+    </p>
+  </ContentMedia>
+<!-- <section class="mt-64 mb-32">
+    <div class="container">
+      <h2 class="mb-16 text-6xl">Counters</h2>
+      <div class="grid grid-cols-1 gap-12 sm:grid-cols-2 md:grid-cols-4">
+        <Counter count="130" title="Stars" sub="On GitHub" />
+        <Counter count="17" title="Accessible" sub="Components" />
+        <Counter count="500" title="Commits" sub="Merged" />
+        <Counter count="18+" title="Months" sub="Since launch" />
+      </div>
+    </div>
+  </section>  -->
+</DefaultLayout>

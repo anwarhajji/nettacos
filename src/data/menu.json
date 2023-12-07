@@ -1,0 +1,44 @@
+
+
+{
+    "title": "Menu",
+    "products": [
+      {
+        "name": "Classic Chicken Taco",
+        "description": "Succulent grilled chicken in a warm tortilla with fresh veggies and salsa.",
+        "price": "$8.99",
+        "image": "https://example.com/images/taco1.jpg"
+      },
+      {
+        "name": "Spicy Beef Taco",
+        "description": "Flavorful seasoned beef with a kick of spice, wrapped in a soft tortilla.",
+        "price": "$9.99",
+        "image": "https://example.com/images/taco2.jpg"
+      },
+      {
+        "name": "Vegetarian Delight",
+        "description": "A medley of fresh vegetables and beans in a flavorful taco shell.",
+        "price": "$7.99",
+        "image": "https://example.com/images/taco3.jpg"
+      },
+      {
+        "name": "Shrimp Fiesta Taco",
+        "description": "Juicy shrimp with a burst of flavors, wrapped in a mouthwatering taco.",
+        "price": "$12.99",
+        "image": "https://example.com/images/taco4.jpg"
+      },
+      {
+        "name": "Cheesy Beef Quesadilla",
+        "description": "Delicious blend of melted cheese and seasoned beef in a crispy tortilla.",
+        "price": "$10.99",
+        "image": "https://example.com/images/quesadilla1.jpg"
+      },
+      {
+        "name": "Guacamole and Chips",
+        "description": "Freshly made guacamole served with crispy tortilla chips.",
+        "price": "$5.99",
+        "image": "https://example.com/images/guacamole.jpg"
+      }
+    ]
+  }
+  
